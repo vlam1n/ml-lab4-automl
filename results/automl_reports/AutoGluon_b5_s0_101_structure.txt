@@ -1,0 +1,2 @@
+лучшая модель: WeightedEnsemble_L2
+веса ансамбля: {'NeuralNetFastAI': np.float64(0.16666666666666669), 'LightGBM': np.float64(0.33333333333333337), 'RandomForestEntr': np.float64(0.33333333333333337), 'XGBoost': np.float64(0.16666666666666669)}

@@ -1,0 +1,63 @@
+'nlp' extra dependency package 'fasttext-numpy2' isn't installed. Look at README.md in repo 'LightAutoML' for installation instructions.
+'nlp' extra dependency package 'nltk' isn't installed. Look at README.md in repo 'LightAutoML' for installation instructions.
+'nlp' extra dependency package 'transformers' isn't installed. Look at README.md in repo 'LightAutoML' for installation instructions.
+/Users/vladimirkuzmin/miniconda3/envs/lab4_lama/lib/python3.11/site-packages/lightautoml/ml_algo/dl_model.py:40: UserWarning: 'transformers' - package isn't installed
+  warnings.warn("'transformers' - package isn't installed")
+/Users/vladimirkuzmin/miniconda3/envs/lab4_lama/lib/python3.11/site-packages/lightautoml/text/embed.py:24: UserWarning: 'transformers' - package isn't installed
+  warnings.warn("'transformers' - package isn't installed")
+/Users/vladimirkuzmin/miniconda3/envs/lab4_lama/lib/python3.11/site-packages/lightautoml/text/dl_transformers.py:25: UserWarning: 'transformers' - package isn't installed
+  warnings.warn("'transformers' - package isn't installed")
+/Users/vladimirkuzmin/miniconda3/envs/lab4_lama/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[18:18:42] Stdout logging level is INFO.
+[18:18:42] Copying TaskTimer may affect the parent PipelineTimer, so copy will create new unlimited TaskTimer
+[18:18:42] Task: multiclass
+
+[18:18:42] Start automl preset with listed constraints:
+[18:18:42] - time: 60.00 seconds
+[18:18:42] - CPU: 4 cores
+[18:18:42] - memory: 16 GB
+
+[18:18:42] [1mTrain data shape: (1552, 28)[0m
+
+[18:18:44] Layer [1m1[0m train process start. Time left 58.15 secs
+[18:18:44] Start fitting [1mLvl_0_Pipe_0_Mod_0_LinearL2[0m ...
+[18:18:46] Time limit exceeded after calculating fold 3
+
+[18:18:46] Fitting [1mLvl_0_Pipe_0_Mod_0_LinearL2[0m finished. score = [1m0.7812232201956003[0m
+[18:18:46] [1mLvl_0_Pipe_0_Mod_0_LinearL2[0m fitting and predicting completed
+[18:18:46] Time left 55.86 secs
+
+[18:18:48] [1mSelector_LightGBM[0m fitting and predicting completed
+[18:18:48] Start fitting [1mLvl_0_Pipe_1_Mod_0_LightGBM[0m ...
+[18:18:53] Time limit exceeded after calculating fold 1
+
+[18:18:53] Fitting [1mLvl_0_Pipe_1_Mod_0_LightGBM[0m finished. score = [1m0.8054620923880856[0m
+[18:18:53] [1mLvl_0_Pipe_1_Mod_0_LightGBM[0m fitting and predicting completed
+[18:18:53] Start fitting [1mLvl_0_Pipe_1_Mod_2_CatBoost[0m ...
+[18:18:55] Fitting [1mLvl_0_Pipe_1_Mod_2_CatBoost[0m finished. score = [1m0.8195328833783034[0m
+[18:18:55] [1mLvl_0_Pipe_1_Mod_2_CatBoost[0m fitting and predicting completed
+[18:18:55] Start hyperparameters optimization for [1mLvl_0_Pipe_1_Mod_3_Tuned_CatBoost[0m ... Time budget is 23.03 secs
+Optimization Progress:   0%|          | 0/101 [00:00<?, ?it/s]Optimization Progress:   0%|          | 0/101 [00:00<?, ?it/s, best_trial=0, best_value=0.786]Optimization Progress:   1%|          | 1/101 [00:00<00:24,  4.06it/s, best_trial=0, best_value=0.786]Optimization Progress:   1%|          | 1/101 [00:00<00:24,  4.06it/s, best_trial=0, best_value=0.786]Optimization Progress:   2%|▏         | 2/101 [00:00<00:24,  4.11it/s, best_trial=0, best_value=0.786]Optimization Progress:   2%|▏         | 2/101 [00:00<00:24,  4.11it/s, best_trial=0, best_value=0.786]Optimization Progress:   3%|▎         | 3/101 [00:00<00:21,  4.48it/s, best_trial=0, best_value=0.786]Optimization Progress:   3%|▎         | 3/101 [00:01<00:21,  4.48it/s, best_trial=0, best_value=0.786]Optimization Progress:   4%|▍         | 4/101 [00:01<00:27,  3.48it/s, best_trial=0, best_value=0.786]Optimization Progress:   4%|▍         | 4/101 [00:02<00:27,  3.48it/s, best_trial=4, best_value=0.794]Optimization Progress:   5%|▍         | 5/101 [00:02<00:52,  1.84it/s, best_trial=4, best_value=0.794]Optimization Progress:   5%|▍         | 5/101 [00:02<00:52,  1.84it/s, best_trial=4, best_value=0.794]Optimization Progress:   6%|▌         | 6/101 [00:02<00:41,  2.29it/s, best_trial=4, best_value=0.794]Optimization Progress:   6%|▌         | 6/101 [00:02<00:41,  2.29it/s, best_trial=4, best_value=0.794]Optimization Progress:   7%|▋         | 7/101 [00:02<00:35,  2.68it/s, best_trial=4, best_value=0.794]Optimization Progress:   7%|▋         | 7/101 [00:02<00:35,  2.68it/s, best_trial=4, best_value=0.794]Optimization Progress:   8%|▊         | 8/101 [00:02<00:30,  3.06it/s, best_trial=4, best_value=0.794]Optimization Progress:   8%|▊         | 8/101 [00:03<00:30,  3.06it/s, best_trial=4, best_value=0.794]Optimization Progress:   9%|▉         | 9/101 [00:03<00:30,  3.05it/s, best_trial=4, best_value=0.794]Optimization Progress:   9%|▉         | 9/101 [00:03<00:30,  3.05it/s, best_trial=4, best_value=0.794]Optimization Progress:  10%|▉         | 10/101 [00:03<00:31,  2.93it/s, best_trial=4, best_value=0.794]Optimization Progress:  10%|▉         | 10/101 [00:04<00:31,  2.93it/s, best_trial=4, best_value=0.794]Optimization Progress:  11%|█         | 11/101 [00:04<00:39,  2.29it/s, best_trial=4, best_value=0.794]Optimization Progress:  11%|█         | 11/101 [00:04<00:39,  2.29it/s, best_trial=4, best_value=0.794]Optimization Progress:  12%|█▏        | 12/101 [00:04<00:33,  2.62it/s, best_trial=4, best_value=0.794]Optimization Progress:  12%|█▏        | 12/101 [00:05<00:33,  2.62it/s, best_trial=4, best_value=0.794]Optimization Progress:  13%|█▎        | 13/101 [00:05<00:44,  1.97it/s, best_trial=4, best_value=0.794]Optimization Progress:  13%|█▎        | 13/101 [00:05<00:44,  1.97it/s, best_trial=4, best_value=0.794]Optimization Progress:  14%|█▍        | 14/101 [00:05<00:37,  2.33it/s, best_trial=4, best_value=0.794]Optimization Progress:  14%|█▍        | 14/101 [00:05<00:37,  2.33it/s, best_trial=4, best_value=0.794]Optimization Progress:  15%|█▍        | 15/101 [00:05<00:32,  2.64it/s, best_trial=4, best_value=0.794]Optimization Progress:  15%|█▍        | 15/101 [00:06<00:32,  2.64it/s, best_trial=4, best_value=0.794]Optimization Progress:  16%|█▌        | 16/101 [00:06<00:39,  2.17it/s, best_trial=4, best_value=0.794]Optimization Progress:  16%|█▌        | 16/101 [00:07<00:39,  2.17it/s, best_trial=4, best_value=0.794]Optimization Progress:  17%|█▋        | 17/101 [00:07<00:52,  1.59it/s, best_trial=4, best_value=0.794]Optimization Progress:  17%|█▋        | 17/101 [00:08<00:52,  1.59it/s, best_trial=4, best_value=0.794]Optimization Progress:  18%|█▊        | 18/101 [00:08<01:02,  1.33it/s, best_trial=4, best_value=0.794]Optimization Progress:  18%|█▊        | 18/101 [00:09<01:02,  1.33it/s, best_trial=4, best_value=0.794]Optimization Progress:  19%|█▉        | 19/101 [00:09<01:08,  1.20it/s, best_trial=4, best_value=0.794]Optimization Progress:  19%|█▉        | 19/101 [00:09<01:08,  1.20it/s, best_trial=4, best_value=0.794]Optimization Progress:  20%|█▉        | 20/101 [00:09<00:56,  1.43it/s, best_trial=4, best_value=0.794]Optimization Progress:  20%|█▉        | 20/101 [00:10<00:56,  1.43it/s, best_trial=4, best_value=0.794]Optimization Progress:  21%|██        | 21/101 [00:10<00:48,  1.64it/s, best_trial=4, best_value=0.794]Optimization Progress:  21%|██        | 21/101 [00:11<00:48,  1.64it/s, best_trial=4, best_value=0.794]Optimization Progress:  22%|██▏       | 22/101 [00:11<00:57,  1.36it/s, best_trial=4, best_value=0.794]Optimization Progress:  22%|██▏       | 22/101 [00:12<00:57,  1.36it/s, best_trial=4, best_value=0.794]Optimization Progress:  23%|██▎       | 23/101 [00:12<01:03,  1.22it/s, best_trial=4, best_value=0.794]Optimization Progress:  23%|██▎       | 23/101 [00:13<01:03,  1.22it/s, best_trial=4, best_value=0.794]Optimization Progress:  24%|██▍       | 24/101 [00:13<01:07,  1.13it/s, best_trial=4, best_value=0.794]Optimization Progress:  24%|██▍       | 24/101 [00:14<01:07,  1.13it/s, best_trial=4, best_value=0.794]Optimization Progress:  25%|██▍       | 25/101 [00:14<01:10,  1.08it/s, best_trial=4, best_value=0.794]Optimization Progress:  25%|██▍       | 25/101 [00:14<01:10,  1.08it/s, best_trial=4, best_value=0.794]Optimization Progress:  26%|██▌       | 26/101 [00:14<00:57,  1.30it/s, best_trial=4, best_value=0.794]Optimization Progress:  26%|██▌       | 26/101 [00:15<00:57,  1.30it/s, best_trial=4, best_value=0.794]Optimization Progress:  27%|██▋       | 27/101 [00:15<00:48,  1.52it/s, best_trial=4, best_value=0.794]Optimization Progress:  27%|██▋       | 27/101 [00:15<00:48,  1.52it/s, best_trial=4, best_value=0.794]Optimization Progress:  28%|██▊       | 28/101 [00:15<00:42,  1.72it/s, best_trial=4, best_value=0.794]Optimization Progress:  28%|██▊       | 28/101 [00:15<00:42,  1.72it/s, best_trial=4, best_value=0.794]Optimization Progress:  29%|██▊       | 29/101 [00:15<00:34,  2.08it/s, best_trial=4, best_value=0.794]Optimization Progress:  29%|██▊       | 29/101 [00:16<00:34,  2.08it/s, best_trial=4, best_value=0.794]Optimization Progress:  30%|██▉       | 30/101 [00:16<00:45,  1.55it/s, best_trial=4, best_value=0.794]Optimization Progress:  30%|██▉       | 30/101 [00:17<00:45,  1.55it/s, best_trial=4, best_value=0.794]Optimization Progress:  31%|███       | 31/101 [00:17<00:39,  1.75it/s, best_trial=4, best_value=0.794]Optimization Progress:  31%|███       | 31/101 [00:18<00:39,  1.75it/s, best_trial=31, best_value=0.794]Optimization Progress:  32%|███▏      | 32/101 [00:18<00:54,  1.27it/s, best_trial=31, best_value=0.794]Optimization Progress:  32%|███▏      | 32/101 [00:18<00:54,  1.27it/s, best_trial=31, best_value=0.794]Optimization Progress:  33%|███▎      | 33/101 [00:18<00:46,  1.47it/s, best_trial=31, best_value=0.794]Optimization Progress:  33%|███▎      | 33/101 [00:19<00:46,  1.47it/s, best_trial=31, best_value=0.794]Optimization Progress:  34%|███▎      | 34/101 [00:19<00:48,  1.38it/s, best_trial=31, best_value=0.794]Optimization Progress:  34%|███▎      | 34/101 [00:20<00:48,  1.38it/s, best_trial=31, best_value=0.794]Optimization Progress:  35%|███▍      | 35/101 [00:20<00:54,  1.22it/s, best_trial=31, best_value=0.794]Optimization Progress:  35%|███▍      | 35/101 [00:21<00:54,  1.22it/s, best_trial=31, best_value=0.794]Optimization Progress:  36%|███▌      | 36/101 [00:21<00:45,  1.44it/s, best_trial=31, best_value=0.794]Optimization Progress:  36%|███▌      | 36/101 [00:21<00:45,  1.44it/s, best_trial=31, best_value=0.794]Optimization Progress:  37%|███▋      | 37/101 [00:21<00:38,  1.65it/s, best_trial=31, best_value=0.794]Optimization Progress:  37%|███▋      | 37/101 [00:21<00:38,  1.65it/s, best_trial=31, best_value=0.794]Optimization Progress:  38%|███▊      | 38/101 [00:21<00:34,  1.83it/s, best_trial=31, best_value=0.794]Optimization Progress:  38%|███▊      | 38/101 [00:22<00:34,  1.83it/s, best_trial=31, best_value=0.794]Optimization Progress:  39%|███▊      | 39/101 [00:22<00:31,  1.99it/s, best_trial=31, best_value=0.794]Optimization Progress:  39%|███▊      | 39/101 [00:23<00:31,  1.99it/s, best_trial=31, best_value=0.794]Optimization Progress:  40%|███▉      | 40/101 [00:23<00:40,  1.51it/s, best_trial=31, best_value=0.794]Optimization Progress:  40%|███▉      | 40/101 [00:23<00:35,  1.71it/s, best_trial=31, best_value=0.794]
+[18:19:19] Hyperparameters optimization for [1mLvl_0_Pipe_1_Mod_3_Tuned_CatBoost[0m completed
+[18:19:19] Start fitting [1mLvl_0_Pipe_1_Mod_3_Tuned_CatBoost[0m ...
+[18:19:23] Fitting [1mLvl_0_Pipe_1_Mod_3_Tuned_CatBoost[0m finished. score = [1m0.8200642905195633[0m
+[18:19:23] [1mLvl_0_Pipe_1_Mod_3_Tuned_CatBoost[0m fitting and predicting completed
+[18:19:23] Time left 19.11 secs
+
+[18:19:23] Time limit exceeded in one of the tasks. AutoML will blend level 1 models.
+
+[18:19:23] [1mLayer 1 training completed.[0m
+
+[18:19:23] Blending: optimization starts with equal weights. Score = [1m0.8060662[0m
+[18:19:23] Blending: iteration [1m0[0m: score = [1m0.8200643[0m, weights = [1m[0. 0. 0. 1.][0m
+[18:19:23] Blending: no improvements for score. Terminated.
+
+[18:19:23] Blending: best score = [1m0.8200643[0m, best weights = [1m[0. 0. 0. 1.][0m
+[18:19:23] [1mAutoml preset training completed in 40.95 seconds[0m
+
+[18:19:23] Model description:
+Final prediction for new objects (level 0) = 
+	 1.00000 * (5 averaged models Lvl_0_Pipe_1_Mod_3_Tuned_CatBoost) 
+
+RESULT: {'system': 'LightAutoML', 'budget_min': 1.0, 'seed': 1, 'split': 'main', 'f1_macro_test': 0.82857268331458, 'accuracy_test': 0.8200514138817481, 'train_time_s': 40.95391983399168, 'predict_time_1000_s': 0.01408908401208464, 'predict_one_ms': 9.94899999932386, 'size_mb': 18.695491790771484, 'peak_mem_mb': 741.015625, 'n_cpu': 4}

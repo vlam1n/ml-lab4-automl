@@ -1,0 +1,1 @@
+RESULT: {'system': 'B2', 'budget_min': 0, 'seed': 0, 'split': '101', 'f1_macro_test': 0.8207431558623705, 'accuracy_test': 0.7969151670951157, 'train_time_s': 5.076685334002832, 'predict_time_1000_s': 0.0012395829980960116, 'predict_one_ms': 0.2653539995662868, 'size_mb': 4.008415222167969, 'peak_mem_mb': 254.359375, 'n_cpu': 4}

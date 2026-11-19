@@ -1,0 +1,2 @@
+лучшая модель: WeightedEnsemble_L2
+веса ансамбля: {'LightGBMXT': np.float64(0.875), 'RandomForestGini': np.float64(0.0625), 'XGBoost': np.float64(0.0625)}

@@ -1,0 +1,2 @@
+Final prediction for new objects (level 0) = 
+	 1.00000 * (5 averaged models Lvl_0_Pipe_1_Mod_3_Tuned_CatBoost) 

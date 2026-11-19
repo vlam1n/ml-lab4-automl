@@ -1,0 +1,2 @@
+trials: 22 best cv f1: 0.8103392926958904 {'depth': 8, 'learning_rate': 0.09879422758578348, 'iterations': 600, 'l2_leaf_reg': 1.2848641972649024, 'auto_class_weights': 'Balanced'}
+RESULT: {'system': 'B3_optuna', 'budget_min': 5.0, 'seed': 2, 'split': 'main', 'f1_macro_test': 0.8229864783390362, 'accuracy_test': 0.8123393316195373, 'train_time_s': 348.6054700829991, 'predict_time_1000_s': 0.001432207995094359, 'predict_one_ms': 0.3249165019951761, 'size_mb': 9.420814514160156, 'peak_mem_mb': 434.8125, 'n_cpu': 4}

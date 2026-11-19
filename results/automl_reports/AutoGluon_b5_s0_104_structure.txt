@@ -1,0 +1,2 @@
+лучшая модель: WeightedEnsemble_L2
+веса ансамбля: {'LightGBMXT': np.float64(0.6666666666666667), 'XGBoost': np.float64(0.16666666666666669), 'NeuralNetTorch': np.float64(0.16666666666666669)}

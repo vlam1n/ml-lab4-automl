@@ -1,0 +1,2 @@
+лучшая модель: WeightedEnsemble_L2
+веса ансамбля: {'XGBoost': np.float64(1.0)}

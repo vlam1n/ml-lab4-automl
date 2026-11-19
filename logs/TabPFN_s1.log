@@ -1,0 +1,1 @@
+RESULT: {'system': 'TabPFN', 'budget_min': 0, 'seed': 1, 'split': 'main', 'f1_macro_test': 0.8315051553075934, 'accuracy_test': 0.8329048843187661, 'train_time_s': 0.06962650000059512, 'predict_time_1000_s': 60.13154875001055, 'predict_one_ms': 37079.51416699507, 'size_mb': 30.03037166595459, 'peak_mem_mb': 2244.359375, 'n_cpu': 4}

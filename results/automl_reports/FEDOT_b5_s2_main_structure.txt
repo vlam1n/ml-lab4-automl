@@ -1,0 +1,7 @@
+{'depth': 4, 'length': 5, 'nodes': [logit, catboost, scaling, xgboost, lgbm]}
+
+logit: parents=['catboost', 'xgboost', 'lgbm'] params={}
+catboost: parents=['scaling'] params={'n_jobs': 4, 'num_trees': 3000, 'learning_rate': 0.03, 'l2_leaf_reg': 0.01, 'bootstrap_type': 'Bernoulli', 'grow_policy': 'SymmetricTree', 'max_depth': 5, 'min_data_in_leaf': 1, 'one_hot_max_size': 10, 'fold_permutation_block': 1, 'boosting_type': 'Plain', 'od_type': 'Iter', 'od_wait': 100, 'max_bin': 32, 'feature_border_type': 'GreedyLogSum', 'nan_mode': 'Min', 'verbose': False, 'allow_writing_files': False, 'use_eval_set': True, 'use_best_model': True, 'enable_categorical': True}
+scaling: parents=[] params={}
+xgboost: parents=['scaling', 'catboost'] params={'n_jobs': 4, 'verbosity': 0, 'booster': 'gbtree', 'tree_method': 'auto', 'enable_categorical': True, 'use_eval_set': True, 'early_stopping_rounds': 30}
+lgbm: parents=['scaling'] params={'boosting_type': 'gbdt', 'max_depth': -1, 'bagging_fraction': 0.85, 'extra_trees': False, 'enable_categorical': True, 'use_eval_set': True, 'early_stopping_rounds': 30, 'n_jobs': 4, 'verbose': -1}

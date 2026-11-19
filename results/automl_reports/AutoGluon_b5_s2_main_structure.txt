@@ -1,0 +1,2 @@
+лучшая модель: WeightedEnsemble_L2
+веса ансамбля: {'RandomForestEntr': np.float64(0.4583333333333333), 'CatBoost': np.float64(0.041666666666666664), 'ExtraTreesGini': np.float64(0.20833333333333334), 'XGBoost': np.float64(0.041666666666666664), 'NeuralNetTorch': np.float64(0.08333333333333333), 'LightGBMLarge': np.float64(0.16666666666666666)}

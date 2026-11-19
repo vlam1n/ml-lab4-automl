@@ -1,0 +1,3 @@
+AutoGluon infers your prediction problem is: 'multiclass' (because dtype of label-column == object).
+	If 'multiclass' is not the correct problem_type, please manually specify the problem_type parameter during Predictor init (You may specify problem_type as one of: ['binary', 'multiclass', 'regression', 'quantile'])
+RESULT: {'system': 'AutoGluon', 'budget_min': 5.0, 'seed': 0, 'split': '101', 'f1_macro_test': 0.7941859872668096, 'accuracy_test': 0.7737789203084833, 'train_time_s': 29.506622500004596, 'predict_time_1000_s': 0.1404919580090791, 'predict_one_ms': 76.65304149850272, 'size_mb': 108.50186443328857, 'peak_mem_mb': 1287.28125, 'n_cpu': 4}

@@ -1,0 +1,3 @@
+trials: 22
+best cv f1_macro: 0.8103392926958904
+params: {'depth': 8, 'learning_rate': 0.09879422758578348, 'iterations': 600, 'l2_leaf_reg': 1.2848641972649024, 'auto_class_weights': 'Balanced'}

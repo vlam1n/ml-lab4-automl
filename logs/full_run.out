@@ -1,0 +1,69 @@
+СТАРТ Thu Nov 19 18:13:17 MSK 2026
+18:13:18 старт baselines
+18:13:37 старт B3_b1_s0
+18:15:01 старт LAMA_b1_s0
+18:15:48 старт FEDOT_b1_s0
+18:16:56 старт AG_b1_s0
+18:17:30 старт B3_b1_s1
+18:18:40 старт LAMA_b1_s1
+18:19:25 старт FEDOT_b1_s1
+18:20:31 старт AG_b1_s1
+18:21:02 старт B3_b1_s2
+18:22:37 старт LAMA_b1_s2
+18:23:19 старт FEDOT_b1_s2
+18:24:25 старт AG_b1_s2
+18:24:56 старт B3_b5_s0
+18:30:07 старт LAMA_b5_s0
+18:31:58 старт FEDOT_b5_s0
+18:37:04 старт AG_b5_s0
+18:37:38 старт B3_b5_s1
+18:42:47 старт LAMA_b5_s1
+18:45:22 старт FEDOT_b5_s1
+18:50:28 старт AG_b5_s1
+18:50:59 старт B3_b5_s2
+18:56:49 старт LAMA_b5_s2
+18:58:09 старт FEDOT_b5_s2
+19:03:17 старт AG_b5_s2
+19:03:50 старт B3_b15_s0
+19:18:59 старт LAMA_b15_s0
+19:22:44 старт FEDOT_b15_s0
+19:37:51 старт AG_b15_s0
+19:38:23 старт B3_b15_s1
+19:53:31 старт LAMA_b15_s1
+19:57:53 старт FEDOT_b15_s1
+20:13:00 старт AG_b15_s1
+20:13:30 старт B3_b15_s2
+20:28:47 старт LAMA_b15_s2
+20:31:53 старт FEDOT_b15_s2
+20:47:00 старт AG_b15_s2
+20:47:31 старт TabPFN_s0
+20:51:40 старт TabPFN_s1
+20:55:53 старт TabPFN_s2
+21:00:09 основной эксперимент закончен
+21:00:10 старт H4_B2_100
+21:00:16 старт H4_LAMA_100
+21:02:03 старт H4_AG_100
+21:02:34 старт H4_TabPFN_100
+21:06:53 старт H4_B2_101
+21:07:00 старт H4_LAMA_101
+21:08:27 старт H4_AG_101
+21:09:00 старт H4_TabPFN_101
+21:13:17 старт H4_B2_102
+21:13:23 старт H4_LAMA_102
+21:15:18 старт H4_AG_102
+21:15:50 старт H4_TabPFN_102
+21:20:06 старт H4_B2_103
+21:20:13 старт H4_LAMA_103
+21:22:13 старт H4_AG_103
+21:22:44 старт H4_TabPFN_103
+21:27:03 старт H4_B2_104
+21:27:10 старт H4_LAMA_104
+21:28:41 старт H4_AG_104
+21:29:18 старт H4_TabPFN_104
+21:33:42 H4 закончена
+21:33:42 выполняю 02_analysis.ipynb
+[NbConvertApp] Converting notebook 02_analysis.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 377558 bytes to 02_analysis.ipynb
+АНАЛИЗ ГОТОВ
+ВСЁ ЗАКОНЧЕНО Thu Nov 19 21:33:46 MSK 2026

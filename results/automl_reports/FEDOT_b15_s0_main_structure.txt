@@ -1,0 +1,8 @@
+{'depth': 4, 'length': 6, 'nodes': [logit, catboost, scaling, resample, xgboost, lgbm]}
+
+logit: parents=['catboost', 'xgboost', 'lgbm'] params={'C': 4.010430804214427}
+catboost: parents=['scaling'] params={'n_jobs': 4, 'num_trees': 3000, 'learning_rate': 0.03, 'l2_leaf_reg': 0.01, 'bootstrap_type': 'Bernoulli', 'grow_policy': 'SymmetricTree', 'max_depth': 5, 'min_data_in_leaf': 1, 'one_hot_max_size': 10, 'fold_permutation_block': 1, 'boosting_type': 'Plain', 'od_type': 'Iter', 'od_wait': 100, 'max_bin': 32, 'feature_border_type': 'GreedyLogSum', 'nan_mode': 'Min', 'verbose': False, 'allow_writing_files': False, 'use_eval_set': True, 'use_best_model': True, 'enable_categorical': True}
+scaling: parents=['resample'] params={}
+resample: parents=[] params={'balance': 'expand_minority', 'replace': False, 'balance_ratio': 1}
+xgboost: parents=['scaling'] params={'n_jobs': 4, 'verbosity': 0, 'booster': 'gbtree', 'tree_method': 'auto', 'enable_categorical': True, 'use_eval_set': True, 'early_stopping_rounds': 30, 'max_depth': 3, 'learning_rate': 0.002944679448551797, 'subsample': 0.5631885106897835, 'min_child_weight': 17, 'lambda': 611, 'alpha': 124, 'colsample_bytree': 0.11539669714105161, 'scale_pos_weight': 11}
+lgbm: parents=['scaling'] params={'boosting_type': 'gbdt', 'max_depth': -1, 'bagging_fraction': 0.09079717174256018, 'extra_trees': True, 'enable_categorical': True, 'use_eval_set': True, 'early_stopping_rounds': 48, 'n_jobs': 4, 'verbose': -1, 'class_weight': None, 'num_leaves': 68, 'min_data_in_leaf': 33, 'learning_rate': 0.1971244916482213, 'force_col_wise': True, 'force_row_wise ': False, 'colsample_bytree': 0.9734830116854022, 'subsample': 0.43693197881345586, 'reg_alpha': 3.6566431378135056e-06, 'reg_lambda': 0.7376410029021763}
